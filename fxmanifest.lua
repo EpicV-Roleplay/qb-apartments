@@ -7,7 +7,7 @@ version '2.1.0'
 shared_scripts {
     'config.lua',
     '@qb-core/shared/locale.lua',
-    'locales/en.lua', -- Change to the language you want
+    'locales/de.lua', -- Change to the language you want
 }
 
 server_scripts {
@@ -26,8 +26,7 @@ client_scripts {
 dependencies {
 	'qb-core',
 	'qb-interior',
-	'qb-clothing',
-	'qb-weathersync'
+	'qb-clothing'
 }
 
 lua54 'yes'
